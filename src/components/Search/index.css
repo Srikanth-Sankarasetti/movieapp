@@ -1,0 +1,54 @@
+.search-main-container {
+  background-color: #131313;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.search-list-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.empty-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.no-video-image {
+  width: 450px;
+}
+.search-para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.search-loader-container {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 678px) {
+  .no-video-image {
+    width: 200px;
+  }
+  .search-para {
+    font-size: 16px;
+  }
+}

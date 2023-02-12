@@ -1,0 +1,36 @@
+.search-value-container {
+  border: 1px solid #ffffff;
+  height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-input {
+  height: 100%;
+  width: 80%;
+  border-style: none;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 400px) {
+  .search-value-container {
+    width: 100px;
+  }
+}
+
+.search-button-data {
+  height: 100%;
+  width: 20%;
+  border-style: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #272626;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

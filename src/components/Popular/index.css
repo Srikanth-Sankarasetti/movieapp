@@ -1,0 +1,69 @@
+.popularMainContainer {
+  background-color: #131313;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.subContainer {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.failure-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.failure-image {
+  width: 375px;
+}
+
+.popular-movies-container {
+  display: flex;
+  justify-content: center;
+  width: 95%;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+.failure-para {
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 31px;
+  color: #ffffff;
+  text-align: center;
+}
+.try-again-button {
+  width: 110px;
+  height: 40px;
+  cursor: pointer;
+  font-family: 'HK Grotesk';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  color: #171f46;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 567px) {
+  .failure-image {
+    width: 233px;
+  }
+  .failure-para {
+    font-size: 16px;
+  }
+}
